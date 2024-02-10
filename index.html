@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Responsive navbar using CSS flexbox and JavaScript</title>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="stye.css">
+    
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <span id="navbar-toggle">
+            <i class="fas fa-bars"></i>
+        </span>
+        <a  id="logo"><img src="Cupid (1).png" alt="logo"></a>
+        <ul id="main-nav">
+            <li>
+                <a href="#home" class="nav-links">Home</a>
+            </li>
+            <li>
+                <a href="#feature" class="nav-links">Features</a>
+            </li>
+            <li>
+                <a href="#about" class="nav-links">About Us</a>
+            </li>
+            <li>
+                <a href="#Contact" class="nav-links">Contact Us</a>
+            </li>
+            <li>
+                <a href="#" class="nav-links">Login</a>
+            </li>
+        </ul>
+    </nav>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe"
+        crossorigin="anonymous"></script>
+        <a id="home"></a>
+        <div class="homepage" id="home">
+            <h1 class="title">CupidConnects</h1>
+            <p class="slogan">Arrow of Love, Striking Hearts Together.</p>
+            <button class="find-match-button">Find your match</button>
+          </div> </a>
+          <a id="feature">
+          <header>
+            <h1>Our Features</h1>
+          </header>
+        
+          <section class="protection-communication">
+            <div class="container">
+              <div class="protection">
+                <img src="p.png" alt="Verified badge">
+                <h2>Protection</h2>
+                <p>Our safety is provided by leading anti-scam system in the industry.</p>
+              </div>
+              <div class="communication">
+                <img src="cn.png" alt="Verified badge">
+                <h2>Communication</h2>
+                <p>Chat, send letters, call, share your photos and videos.</p>
+              </div>
+              <div class="verification">
+                <img src="vn.png" alt="Verified badge">
+                <h2>Verification</h2>
+                <p>All members are personally confirmed by our staff to prove they are real.</p>
+              </div>
+            </div>
+          </section> </a>
+          
+              <h2 class="title">Our dating site helps to find real love</h2>
+
+              <section class="dating-site">
+                <div class="container">
+                 
+                  <div class="content">
+                    <div class="stat">
+                      <img src="stat1.jpg" alt="Stat 1">
+                      <p>Over thousands have found love</p><br>
+                     <p class="s">..could you be next?</p></div>
+                    
+                    <div class="stat">
+                      <img src="stat2.jpg" alt="Stat 2">
+                      <p>Site most likely to lead to happy relationships</p><br>
+                   <p class="s">...the right one might be waiting for you</p></div>
+                    
+                    <div class="stat">
+                      <img src="stat3.jpg" alt="Stat 3">
+                      <p>2.3 million messages sent weekly</p><br>
+                    <p class="s" >....See who wants to talk to you ?</p>
+                    
+                  </div>
+                  
+                </div>
+              </section>
+              <a  id="about">
+              <div class="about-section">
+                <h2 class="about-title">About us</h2>
+                <div class="about-text-box">
+                  <p>Welcome to CupidConnects! At CupidConnects, we believe in the extraordinary power of love and the joy it brings to our lives. Here, we've crafted a space where connections go beyond the ordinary, and every moment has the potential to spark something truly magical.</p>
+                  <p>Our mission is to ignite flames of passion, laughter, and companionship. We've engineered state-of-the-art algorithms that do more than just match profiles; they create experiences. CupidConnects is not just a dating site; it's your personal love concierge, dedicated to curating moments that matter.</p>
+                  <p>Ready to embark on a journey where serendipity takes the lead? Join CupidConnects and discover a world where every click, every message, and every shared smile brings you one step closer to a connection that lasts a lifetime.</p>
+                  <p>Let's make your love story unforgettable. <a href="#" class="signup-btn">Sign up now!</a></p>
+                </div>
+              </div>
+              <section class="couple-section">
+                <div class="couple-container">
+                  <div class="couple-image">
+                    <img src="couple2.jpg" alt="Couple 1">
+                    <div class="cutout-image">
+                      <img src="couple2.jpg" alt="Cutout Image 1">
+                    </div>
+                  </div>
+                  <div class="couple-info">
+                    <h2 class="name">Ava & Ethan</h2>
+                    <p class="description">A beautiful love story that began on CupidConnects, Ava and Ethan's journey to finding each other is both heartwarming and inspiring.</p>
+                    <a href="#" class="button">Learn More</a>
+                  </div>
+                </div>
+                <div class="couple-container">
+                  <div class="couple-image">
+                    <img src="couple1.jpg" alt="Couple 2">
+                    <div class="cutout-image">
+                      <img src="couple1.jpg" alt="Cutout Image 2">
+                    </div>
+                  </div>
+                  <div class="couple-info">
+                    <h2 class="name">Noah & Emma</h2>
+                    <p class="description">Noah and Emma's love story is a true testament to the power of online dating. Their chemistry was undeniable from the start, and they've been inseparable ever since.</p>
+                    <a href="#" class="button">Learn More</a>
+                  </div>
+                </div>
+              </section> </a>
+              <a id="Contact">
+              
+           <div class="container">
+            <div class="form-container">
+                <form>
+                    <label for="fullname">Full Name</label><br>
+                    <input type="text" id="fullname" name="fullname" placeholder="What's your full name?" required><br>
+                    <label for="email">Email Address</label><br>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required><br>
+                    <label for="message">Message</label><br>
+                    <textarea id="message" name="message" placeholder="Write your message for the team here" required></textarea><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <div class="image-container">
+                <img src="image.jpeg" alt="Image">
+            </div>
+        </div></a>
+            <footer>
+                <div class="social-icons">
+                    <a href="http://www.facebook.com" target=”_blank” ><img src="facebook.png" alt="Facebook"></a>
+                    <a href="http://www.twitter.com" target=”_blank”><img src="twitter.png" alt="Twitter"></a>
+                    <a  href="http://www.instagram.com" target=”_blank”><img src="insta.jpg" alt="Instagram"></a>
+                    <a href="http://www.youtube.com" target=_blank”><img src="ytt.png" alt="Youtube"></a>
+                </div>
+                <p>&copy; 2024 CupidConnects. All rights reserved.</p>
+            </footer>
+</body> 
+
+
+</html>
